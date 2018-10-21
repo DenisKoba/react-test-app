@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import "./components/Layout/Layout.scss";
+@import "./containers/BurgerBuilder/BurgerBuilder.scss";
+@import "./components/Burger/Burger.scss";
+@import "./components/Burger/BurgerIngridients/BurgerIngridients.scss";
+@import "./components/Controls/Controls.scss";
+@import "./components/Controls/Control/Control.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open-Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f2;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+

@@ -1,0 +1,64 @@
+.ingridient {
+  position: relative;
+  width: 60%;
+  max-width: 500px;
+  height: 400px;
+  overflow: scroll;
+
+  &__item {
+    margin: 2px 0;
+    width: 100%;
+    height: 40px;
+    display: block;
+    background-position: center;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  &__bread-top {
+    height: 100px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: #ffd100;
+    background-image: url("https://media.gettyimages.com/vectors/seamless-sesame-seeds-pattern-vector-id531540770?b=1&k=6&m=531540770&s=170x170&h=qBQAGcW_2T4YK34giRIsmQR8ImuIRuVSWO18_1M0xg4=");
+    border-right: 20px solid #bf841c;
+    background-size: contain;
+    background-repeat: repeat;
+  }
+
+  &__meat {
+    height: 20px;
+    background-color: #a73e11;
+    border-radius: 50px;
+    box-shadow: 0px 1px 1px 0px #bbbbbb;
+  }
+
+  &__cheese {
+    height: 20px;
+    background-color: #fdef2c;
+    border-radius: 50px;
+    box-shadow: 0px 1px 1px 0px #bbbbbb;
+  }
+
+  &__salad {
+    height: 20px;
+    background-color: #00cb55;
+    border-radius: 50px;
+    box-shadow: 0px 1px 1px 0px #bbbbbb;
+  }
+
+  &__souse {
+    height: 20px;
+    background-color: #fd6a00;
+    border-radius: 50px;
+    box-shadow: 0px 1px 1px 0px #bbbbbb;
+  }
+
+  &__bread-bottom {
+    height: 50px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: #e49d22;
+    border-right: 20px solid #bf841c;
+  }
+}
